@@ -1,0 +1,80 @@
+dictionary = {
+    ["DictKey_ActionText_10501"] = "return false -- scripts",
+    ["DictKey_ActionText_10502"] = "return false -- config",
+    ["DictKey_ActionText_10601"] = "return VEAF_DYNAMIC_PATH~=nil",
+    ["DictKey_ActionText_10701"] = "return VEAF_DYNAMIC_PATH==nil",
+    ["DictKey_ActionText_10801"] = "return VEAF_DYNAMIC_MISSIONPATH~=nil",
+    ["DictKey_ActionText_10901"] = "return VEAF_DYNAMIC_MISSIONPATH==nil",
+    ["DictKey_descriptionBlueTask_3"] = "",
+    ["DictKey_descriptionNeutralsTask_4"] = "",
+    ["DictKey_descriptionRedTask_2"] = "",
+    ["DictKey_descriptionText_1"] = "Ergo-Phenix et la VEAF présentent:\
+\
+TOP GUN ACADEMY 3.0\
+\
+De nombreuses possibilités s offrent a vous, engagement PVE ou PVP dans differentes Zones - BVR/BFM/GUN ONLY\
+\
+Les Zones ont toutes leurs propres specifités - dans certaines zones vous retrouverez certains avions que vous ne trouverez pas dans d'autres, la hauteur de pop varie également ....(plus d infos plus bas)\
+\
+Pour déclencher les zones PVE, il suffit de prendre un slot et de poper dans la zone choisie.\
+Une fois le combat terminer, changer de slot ou retour au specateur pour réarmer la QRA.\
+\
+REGLES :\
+\
+- Aucun AWACS\
+- Avions en vol et pré-configurés \
+- Concernant le BFM et GUN ONLY - l'emport de fuel est calqué sur les valeurs du serveur JUST DOGFIGHT (voir Images du briefing)\
+- BFM/GUN ONLY engagement apres le merge.\
+-\
+-\
+-\
+-\
+\
+ZONE PVE DISPONIBLE:\
+\
+- PVE FOX1 AREA 1 : Départ 15K Feets - Distance 70NM\
+- PVE FOX1 AREA 2 : Départ 25K Feets - Distance 55NM\
+- PVE FOX1 AREA 3 : Départ 10K Feets - Distance 70NM\
+\
+- PVE FOX3 AREA 1 : Départ 30K Feets - Distance 90NM\
+- PVE FOX3 AREA 2 : Départ 15K Feets - Distance 80NM\
+- PVE FOX3 AERA 3 : Départ 25K Feets - Distance 85NM\
+\
+- PVE BFM AERA 1 : Départ --K Feets - Distance 8NM\
+- PVE BFM AERA 2 : Départ --K Feets - Distance 8NM\
+- PVE BFM AERA 3 : Départ --K Feets - Distance 8NM\
+\
+- PVE GUN ONLY AERA 1 : Départ --K Feets - Distance 8NM\
+- PVE GUN ONLY AERA 2 : Départ --K Feets - Distance 8NM\
+- PVE GUN ONLY AERA 3 : Départ --K Feets - Distance 8NM\
+\
+ARENE PVP DISPONIBLE:\
+\
+- PVP BVR ARENA 1: Départ 25K Feets - Distance 80NM\
+- PVP BVR ARENA 2: Départ 10K Feets - Distance 70NM\
+- PVP BVR ARENA 3: Départ 5K Feets - Distance 80NM\
+\
+- PVP BFM ARENA 1: Départ 15K Feets - Distance 8NM\
+- PVP BFM ARENA 2: Départ 5K Feets - Distance 8NM\
+- PVP BFM ARENA 3: Départ 15K Feets - Distance 8NM\
+\
+- PVP GUN ONLY ARENA 1: Départ 5K Feets - Distance 8NM\
+- PVP GUN ONLY ARENA 2: Départ 15K Feets - Distance 8NM\
+- PVP GUN ONLY ARENA 2: Départ 15K Feets - Distance 8NM\
+\
+ORDONNANCE BVR - PVE/PVP\
+\
+- F/A18C: 6x120c - 2x9X \
+- F16-CM: 4x120c - 2x9X Pod ECM\
+- MIG29S: 2xR-77 - 2xR27ET - 2xr73\
+- F15-C: 6x120c - 2x9P\
+- SU-33: 4xR27ER - 2xR27ET - 2xR73 - Pod ECM\
+- SU-27: 2xR27ER - 2xR27ET - 2xR73 - Pod ECM\
+- JF-17: 4xSD-10 - 2x PL-5EII - Pod ECM\
+- F-14A: 4xAIM-54C - 2xAIM-7M - 2x9M\
+- F-14B: 4xAIM-54C - 2xAIM-7M - 2x9M\
+- M-2000C : 2x530D - 2xMagic II\
+- J-11A: 2xR-77 - 2xR27ER - 2xR27ET - 2xR73 - Pod ECM\
+- MIG-21: 2x3-R3 - 2xR60M - Pod ASO-2",
+    ["DictKey_sortie_5"] = "TOP-GUN ACADEMY 3.0",
+} -- end of dictionary
