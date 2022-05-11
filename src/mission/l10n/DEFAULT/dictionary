@@ -8,73 +8,129 @@ dictionary = {
     ["DictKey_descriptionBlueTask_3"] = "",
     ["DictKey_descriptionNeutralsTask_4"] = "",
     ["DictKey_descriptionRedTask_2"] = "",
-    ["DictKey_descriptionText_1"] = "Ergo-Phenix et la VEAF présentent:\
+    ["DictKey_descriptionText_1"] = "Ergo-Phenix et la VEAF présentent :\
 \
-TOP GUN ACADEMY 3.0\
+TOP GUN ACADEMY SYRIA\
 \
-De nombreuses possibilités s offrent a vous, engagement PVE ou PVP dans differentes Zones - BVR/BFM/GUN ONLY\
+De nombreuses possibilités s’offrent à vous, engagement PVE ou PVP dans différentes Zones - BVR/BFM/GUN ONLY\
 \
-Les Zones ont toutes leurs propres specifités - dans certaines zones vous retrouverez certains avions que vous ne trouverez pas dans d'autres, la hauteur de pop varie également ....(plus d infos plus bas)\
+Les Zones ont toutes leurs propres spécificités dans certaines zones vous retrouverez certains avions que vous ne trouverez pas dans d'autres, la hauteur de pop varie également … (plus d’infos plus bas)\
 \
-Pour déclencher les zones PVE, il suffit de prendre un slot et de poper dans la zone choisie.\
-Une fois le combat terminer, changer de slot ou retour au specateur pour réarmer la QRA.\
+Pour déclencher les zones PVE, il suffit de prendre un slot et de Popper dans la zone choisie.\
+\
+ATTENTION, DANS CERTAINES ZONE PVE, VOUS NE POURREZ DEPASSER UNE CERTAINE ALTITUDE, le détail de ces zones plus bas.\
+\
+Pour les zones PVP, aucune restriction d'altitude.\
+\
+Une fois le combat terminé, changer de slot ou retour au spectateur pour réarmer la QRA.\
 \
 REGLES :\
 \
-- Aucun AWACS\
-- Avions en vol et pré-configurés \
-- Concernant le BFM et GUN ONLY - l'emport de fuel est calqué sur les valeurs du serveur JUST DOGFIGHT (voir Images du briefing)\
-- BFM/GUN ONLY engagement apres le merge.\
--\
--\
--\
+- En multi BVR, vous disposez de 10 sec pour rejoindre un Zone avant que la QRA ne prenne en compte le nombre de joueurs présents dans cette zone.\
+\
+-En multi BFM/Gun-Only, vous disposez de 3 secondes avant que le calcul ne soit fait.\
+\
+- Aucun AWACS présent sur la carte.\
+\
+- Avions en vol et préconfigurés.\
+\
+- Concernant le Fuel, tous les avions ont une capacité de 5 minutes de Post-Combustion.\
+\
+- BFM/GUN ONLY engagement après le merge. Les IA sont paramétrées pour engager à partir d'un point qui correspond à peut prêt au point du merge.\
+\
+- Apres une manche PVE, victorieuse ou non, il vous faudra faire un retour au spectateur pour que la zone se réactive.\
+\
+- Faites attention au moment de rejoindre une zone qu'un combat ne soit pas déjà en cours dans cette zone.\
+\
+- Il est impossible de voyager de zone en zone sans reprendre un slot, si vous vous égarez trop loin de votre zone, vous serez renvoyés en spectateur de façon automatique.\
+\
 -\
 \
-ZONE PVE DISPONIBLE:\
+ZONE PVE - BVR - DISPONIBLE :\
 \
-- PVE FOX1 AREA 1 : Départ 15K Feets - Distance 70NM\
+- PVE FOX1 AREA 1 : Départ 10K Feets - Distance 70NM\
+\
+Dans cette zone, vous avez interdiction de dépasser 25K Feets.\
+\
 - PVE FOX1 AREA 2 : Départ 25K Feets - Distance 55NM\
+\
+Dans cette zone, pas de restrictions.\
+\
 - PVE FOX1 AREA 3 : Départ 10K Feets - Distance 70NM\
 \
+Dans cette zone, vous avez interdiction de dépasser 20K Feets.\
+\
 - PVE FOX3 AREA 1 : Départ 30K Feets - Distance 90NM\
-- PVE FOX3 AREA 2 : Départ 15K Feets - Distance 80NM\
-- PVE FOX3 AERA 3 : Départ 25K Feets - Distance 85NM\
+\
+Dans cette zone, pas de restrictions.\
+\
+- PVE FOX3 AREA 2 : Départ 10K Feets - Distance 80NM \
+\
+ Dans cette zone, vous avez interdiction de dépasser 20K Feets.\
+\
+- PVE FOX3 AERA 3 : Départ 15K Feets - Distance 85NM\
+\
+Dans cette zone, vous avez interdiction de dépasser 25K Feets.\
+\
+ZONE PVE - BFM - DISPONIBLE :\
 \
 - PVE BFM AERA 1 : Départ 15K Feets - Distance 8NM\
-- PVE BFM AERA 2 : Départ --K Feets - Distance 8NM\
-- PVE BFM AERA 3 : Départ --K Feets - Distance 8NM\
+- PVE BFM AERA 2 : Départ 5K Feets - Distance 8NM\
+- PVE BFM AERA 3 : Départ 15K Feets - Distance 8NM\
 \
-- PVE GUN ONLY AERA 1 : Départ --K Feets - Distance 8NM\
-- PVE GUN ONLY AERA 2 : Départ --K Feets - Distance 8NM\
-- PVE GUN ONLY AERA 3 : Départ --K Feets - Distance 8NM\
+ZONE PVE - GUN-ONLY - DISPONIBLE :\
 \
-ARENE PVP DISPONIBLE:\
+- PVE GUN ONLY AERA 1 : Départ 15K Feets - Distance 8NM\
+- PVE GUN ONLY AERA 2 : Départ 5K Feets - Distance 8NM\
+- PVE GUN ONLY AERA 3 : Départ 15K Feets - Distance 8NM\
 \
-- PVP BVR ARENA 1: Départ 25K Feets - Distance 80NM\
-- PVP BVR ARENA 2: Départ 10K Feets - Distance 70NM\
-- PVP BVR ARENA 3: Départ 5K Feets - Distance 80NM\
+ARENE PVP - BVR - DISPONIBLE :\
 \
-- PVP BFM ARENA 1: Départ 15K Feets - Distance 8NM\
-- PVP BFM ARENA 2: Départ 5K Feets - Distance 8NM\
-- PVP BFM ARENA 3: Départ 15K Feets - Distance 8NM\
+- PVP BVR ARENA 1 : Départ 25K Feets - Distance 80NM\
+- PVP BVR ARENA 2 : Départ 10K Feets - Distance 70NM\
+- PVP BVR ARENA 3 : Départ 25K Feets - Distance 80NM\
 \
-- PVP GUN ONLY ARENA 1: Départ 5K Feets - Distance 8NM\
-- PVP GUN ONLY ARENA 2: Départ 15K Feets - Distance 8NM\
-- PVP GUN ONLY ARENA 2: Départ 15K Feets - Distance 8NM\
+ARENE PVP - BFM - DISPONIBLE :\
+\
+- PVP BFM ARENA 1 : Départ 15K Feets - Distance 8NM\
+- PVP BFM ARENA 2 : Départ 5K Feets - Distance 8NM\
+- PVP BFM ARENA 3 : Départ 15K Feets - Distance 8NM\
+\
+ARENE PVP - GUN-ONLY - DISPONIBLE :\
+\
+- PVP GUN ONLY ARENA 1 : Départ 5K Feets - Distance 8NM\
+- PVP GUN ONLY ARENA 2 : Départ 15K Feets - Distance 8NM\
+- PVP GUN ONLY ARENA 3 : Départ 15K Feets - Distance 8NM\
 \
 ORDONNANCE BVR - PVE/PVP\
 \
-- F/A18C: 6x120c - 2x9X \
-- F16-CM: 4x120c - 2x9X Pod ECM\
-- MIG29S: 2xR-77 - 2xR27ET - 2xr73\
-- F15-C: 6x120c - 2x9P\
-- SU-33: 4xR27ER - 2xR27ET - 2xR73 - Pod ECM\
-- SU-27: 2xR27ER - 2xR27ET - 2xR73 - Pod ECM\
-- JF-17: 4xSD-10 - 2x PL-5EII - Pod ECM\
-- F-14A: 4xAIM-54C - 2xAIM-7M - 2x9M\
-- F-14B: 4xAIM-54C - 2xAIM-7M - 2x9M\
+- F/A18C : 6x120c - 2x9X \
+- F-16CM : 4x120c - 2x9X Pod ECM\
+- MIG-29S : 2xR-77 - 2xR27ET - 2xr73\
+- F-15C : 6x120c - 2x9P\
+- SU-33 : 4xR27ER - 2xR27ET - 2xR73 - Pod ECM\
+- SU-27 : 2xR27ER - 2xR27ET - 2xR73 - Pod ECM\
+- JF-17 : 4xSD-10 - 2x PL-5EII - Pod ECM\
+- F-14A : 4xAIM-54C - 2xAIM-7M - 2x9M\
+- F-14B : 4xAIM-54C - 2xAIM-7M - 2x9M\
 - M-2000C : 2x530D - 2xMagic II\
-- J-11A: 2xR-77 - 2xR27ER - 2xR27ET - 2xR73 - Pod ECM\
-- MIG-21: 2x3-R3 - 2xR60M - Pod ASO-2",
-    ["DictKey_sortie_5"] = "TOP-GUN ACADEMY 3.0",
+- J-11A : 2xR-77 - 2xR27ER - 2xR27ET - 2xR73 - Pod ECM\
+- MIG-21 : 2x3-R3 - 2xR60M - Pod ASO-2\
+\
+ORDONNANCE BFM - PVE/PVP\
+    \
+- F/A18C : 2x9X \
+- F16CM : 2x9X\
+- MIG-29S : 2xr73\
+- F-15C : 2x9P\
+- SU-33 : 2xR73\
+- SU-27 :2xR73\
+- JF-17 : 2x PL-5EII\
+- F-14A : 2x9M\
+- F-14B : 2x9M\
+- M-2000C : 2xMagic II\
+- J-11A : 2xR73\
+- MIG-21 : 2xR60M\
+",
+    ["DictKey_sortie_5"] = "TOP-GUN ACADEMY SYRIA",
 } -- end of dictionary

@@ -34,6 +34,5 @@ mapResource = {
     ["ResKey_ImageBriefing_11"] = "TOP GUN.jpg",
     ["ResKey_ImageBriefing_6"] = "fuel.jpg",
     ["ResKey_ImageBriefing_7"] = "fuel.jpg",
-    ["ResKey_ImageBriefing_8"] = "fuel.jpg",
     ["ResKey_ImageBriefing_9"] = "TOP GUN.jpg",
 } -- end of mapResource
