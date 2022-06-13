@@ -20,10 +20,10 @@ if veaf then
     :setRandomGroupsToDeployByEnemyQuantity(4, { "AREA 1 - F-4E - FOX1", "AREA 1 - SU27 - FOX1", "AREA 1 - MIG31 - FOX1", "AREA 1 - MIG29A - FOX1" }, 4) -- 4 humans in the zone
     :setRandomGroupsToDeployByEnemyQuantity(5, { "AREA 1 - F-4E - FOX1", "AREA 1 - SU27 - FOX1", "AREA 1 - MIG31 - FOX1", "AREA 1 - MIG29A - FOX1" }, 5) -- 5 humans in the zone
     :setReactOnHelicopters() -- reacts when helicopters enter the zone
-    :setDelayBeforeRearming(15) -- 15 seconds before the QRA is rearmed
-	:setDelayBeforeActivating(30) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
+    :setDelayBeforeRearming() -- 15 seconds before the QRA is rearmed
+	:setDelayBeforeActivating(10) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
     :setNoNeedToLeaveZoneBeforeRearming() -- the enemy does not have to leave the zone before the QRA is rearmed
-    :setResetWhenLeavingZone() -- reset the QRA immediately when all the ennemy units have left the zone
+    :setResetWhenLeavingZone(1) -- reset the QRA immediately when all the ennemy units have left the zone
     :start()
 end
 
@@ -39,10 +39,10 @@ if veaf then
     :setRandomGroupsToDeployByEnemyQuantity(4, { "MIG-29A - FOX 1 - AREA 2", "MIG-23 - FOX 1 - AREA 2", "MIG-21 - FOX 1 - AREA 2", "MIG-25 - FOX 1 - AREA 2" }, 4) -- 4 humans in the zone
     :setRandomGroupsToDeployByEnemyQuantity(5, { "MIG-29A - FOX 1 - AREA 2", "MIG-23 - FOX 1 - AREA 2", "MIG-21 - FOX 1 - AREA 2", "MIG-25 - FOX 1 - AREA 2" }, 5) -- 5 humans in the zone
     :setReactOnHelicopters() -- reacts when helicopters enter the zone
-    :setDelayBeforeRearming(15) -- 15 seconds before the QRA is rearmed
-	:setDelayBeforeActivating(30) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
+    :setDelayBeforeRearming() -- 15 seconds before the QRA is rearmed
+	:setDelayBeforeActivating(10) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
     :setNoNeedToLeaveZoneBeforeRearming() -- the enemy does not have to leave the zone before the QRA is rearmed
-    :setResetWhenLeavingZone() -- reset the QRA immediately when all the ennemy units have left the zone
+    :setResetWhenLeavingZone(1) -- reset the QRA immediately when all the ennemy units have left the zone
     :start()
 end
 
@@ -59,9 +59,9 @@ if veaf then
     :setRandomGroupsToDeployByEnemyQuantity(5, { "AREA 3 - M2000-5 - FOX1", "AREA 3 - SU27 - FOX1", "AREA 3 - F-4E - FOX1", "AREA 3 - MIG23 - FOX1" }, 5) -- 5 humans in the zone
     :setReactOnHelicopters() -- reacts when helicopters enter the zone
     :setDelayBeforeRearming(15) -- 15 seconds before the QRA is rearmed
-	:setDelayBeforeActivating(30) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
+	:setDelayBeforeActivating(10) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
     :setNoNeedToLeaveZoneBeforeRearming() -- the enemy does not have to leave the zone before the QRA is rearmed
-    :setResetWhenLeavingZone() -- reset the QRA immediately when all the ennemy units have left the zone
+    :setResetWhenLeavingZone(1) -- reset the QRA immediately when all the ennemy units have left the zone
     :start()
 end
 
@@ -78,9 +78,9 @@ if veaf then
     :setRandomGroupsToDeployByEnemyQuantity(5, { "AREA 1 - MIG29S - FOX3", "AREA 1 - JF-17 - FOX3", "AREA 1 - F14B - FOX3", "AREA 1 - SU30 - FOX3" }, 5) -- 5 humans in the zone
     :setReactOnHelicopters() -- reacts when helicopters enter the zone
     :setDelayBeforeRearming(15) -- 15 seconds before the QRA is rearmed
-	:setDelayBeforeActivating(30) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
+	:setDelayBeforeActivating(10) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
     :setNoNeedToLeaveZoneBeforeRearming() -- the enemy does not have to leave the zone before the QRA is rearmed
-    :setResetWhenLeavingZone() -- reset the QRA immediately when all the ennemy units have left the zone
+    :setResetWhenLeavingZone(1) -- reset the QRA immediately when all the ennemy units have left the zone
     :start()
 end
 
@@ -97,9 +97,9 @@ if veaf then
     :setRandomGroupsToDeployByEnemyQuantity(5, { "AREA 2 - MIG29S - FOX3", "AREA 2 - JF17 - FOX3", "AREA 2 - F16-BK52 - FOX3", "AREA 2 - J-11A - FOX3" }, 5) -- 5 humans in the zone
     :setReactOnHelicopters() -- reacts when helicopters enter the zone
     :setDelayBeforeRearming(15) -- 15 seconds before the QRA is rearmed
-	:setDelayBeforeActivating(30) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
+	:setDelayBeforeActivating(10) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
     :setNoNeedToLeaveZoneBeforeRearming() -- the enemy does not have to leave the zone before the QRA is rearmed
-    :setResetWhenLeavingZone() -- reset the QRA immediately when all the ennemy units have left the zone
+    :setResetWhenLeavingZone(1) -- reset the QRA immediately when all the ennemy units have left the zone
     :start()
 end
 
@@ -116,9 +116,9 @@ if veaf then
     :setRandomGroupsToDeployByEnemyQuantity(5, { "AREA 3 - JF-17 - FOX3", "AREA 3 - F16-Bk52 - FOX3", "AREA 3 - F14B - FOX3", "AREA 3 - F/A18C - FOX3" }, 5) -- 5 humans in the zone
     :setReactOnHelicopters() -- reacts when helicopters enter the zone
     :setDelayBeforeRearming(15) -- 15 seconds before the QRA is rearmed
-	:setDelayBeforeActivating(30) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
+	:setDelayBeforeActivating(10) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
     :setNoNeedToLeaveZoneBeforeRearming() -- the enemy does not have to leave the zone before the QRA is rearmed
-    :setResetWhenLeavingZone() -- reset the QRA immediately when all the ennemy units have left the zone
+    :setResetWhenLeavingZone(1) -- reset the QRA immediately when all the ennemy units have left the zone
     :start()
 end
 
@@ -135,9 +135,9 @@ if veaf then
     :setRandomGroupsToDeployByEnemyQuantity(5, { "MIG-25 - BFM - AREA 1", "F-5E3 - BFM - AREA 1", "MIG-23 - BFM - AREA 1", "MIG-21 - BFM - AREA 1" }, 5) -- 5 humans in the zone
     :setReactOnHelicopters() -- reacts when helicopters enter the zone
     :setDelayBeforeRearming(15) -- 15 seconds before the QRA is rearmed
-	:setDelayBeforeActivating(30) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
+	:setDelayBeforeActivating(3) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
     :setNoNeedToLeaveZoneBeforeRearming() -- the enemy does not have to leave the zone before the QRA is rearmed
-    :setResetWhenLeavingZone() -- reset the QRA immediately when all the ennemy units have left the zone
+    :setResetWhenLeavingZone(1) -- reset the QRA immediately when all the ennemy units have left the zone
     :start()
 end
 
@@ -154,9 +154,9 @@ if veaf then
     :setRandomGroupsToDeployByEnemyQuantity(5, { "SU-30 - BFM - AREA 2", "M2000C - BFM - AREA 2", "F-15E - BFM - AREA 2", "SU-27 - BFM - AREA 2" }, 5) -- 5 humans in the zone
     :setReactOnHelicopters() -- reacts when helicopters enter the zone
     :setDelayBeforeRearming(15) -- 15 seconds before the QRA is rearmed
-	:setDelayBeforeActivating(30) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
+	:setDelayBeforeActivating(3) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
     :setNoNeedToLeaveZoneBeforeRearming() -- the enemy does not have to leave the zone before the QRA is rearmed
-    :setResetWhenLeavingZone() -- reset the QRA immediately when all the ennemy units have left the zone
+    :setResetWhenLeavingZone(1) -- reset the QRA immediately when all the ennemy units have left the zone
     :start()
 end
 
@@ -173,9 +173,9 @@ if veaf then
     :setRandomGroupsToDeployByEnemyQuantity(5, { "F-14A - BFM - AREA 3", "F/A18C - BFM - AREA 3", "M2000-5 - BFM - AREA 3", "F-16CM - BFM - AREA 3" }, 5) -- 5 humans in the zone
     :setReactOnHelicopters() -- reacts when helicopters enter the zone
     :setDelayBeforeRearming(15) -- 15 seconds before the QRA is rearmed
-	:setDelayBeforeActivating(30) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
+	:setDelayBeforeActivating(3) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
     :setNoNeedToLeaveZoneBeforeRearming() -- the enemy does not have to leave the zone before the QRA is rearmed
-    :setResetWhenLeavingZone() -- reset the QRA immediately when all the ennemy units have left the zone
+    :setResetWhenLeavingZone(1) -- reset the QRA immediately when all the ennemy units have left the zone
     :start()
 end
 
@@ -185,16 +185,16 @@ if veaf then
     :setCoalition(coalition.side.RED)
     :addEnnemyCoalition(coalition.side.BLUE)
     :setTriggerZone("PVE - GUN ONLY - AREA 1")
-    :setRandomGroupsToDeployByEnemyQuantity(1, { "PVE - GUN ONLY - AREA 1 - JF-17", "PVE - GUN ONLY - AREA 1 - F-4E", "PVE - GUN ONLY - AREA 1 - J-11A", "PVE - GUN ONLY - AREA 1 - MIG-29A" }, 1) -- 1 human in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(2, { "PVE - GUN ONLY - AREA 1 - JF-17", "PVE - GUN ONLY - AREA 1 - F-4E", "PVE - GUN ONLY - AREA 1 - J-11A", "PVE - GUN ONLY - AREA 1 - MIG-29A" }, 2) -- 2 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(3, { "PVE - GUN ONLY - AREA 1 - JF-17", "PVE - GUN ONLY - AREA 1 - F-4E", "PVE - GUN ONLY - AREA 1 - J-11A", "PVE - GUN ONLY - AREA 1 - MIG-29A" }, 3) -- 3 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(4, { "PVE - GUN ONLY - AREA 1 - JF-17", "PVE - GUN ONLY - AREA 1 - F-4E", "PVE - GUN ONLY - AREA 1 - J-11A", "PVE - GUN ONLY - AREA 1 - MIG-29A" }, 4) -- 4 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(5, { "PVE - GUN ONLY - AREA 1 - JF-17", "PVE - GUN ONLY - AREA 1 - F-4E", "PVE - GUN ONLY - AREA 1 - J-11A", "PVE - GUN ONLY - AREA 1 - MIG-29A" }, 5) -- 5 humans in the zone
+    :setRandomGroupsToDeployByEnemyQuantity(1, { "AREA 1 - JF-17", "AREA 1 - F-4E", "AREA 1 - J-11A", "AREA 1 - MIG-29A" }, 1) -- 1 human in the zone
+    :setRandomGroupsToDeployByEnemyQuantity(2, { "AREA 1 - JF-17", "AREA 1 - F-4E", "AREA 1 - J-11A", "AREA 1 - MIG-29A" }, 2) -- 2 humans in the zone
+    :setRandomGroupsToDeployByEnemyQuantity(3, { "AREA 1 - JF-17", "AREA 1 - F-4E", "AREA 1 - J-11A", "AREA 1 - MIG-29A" }, 3) -- 3 humans in the zone
+    :setRandomGroupsToDeployByEnemyQuantity(4, { "AREA 1 - JF-17", "AREA 1 - F-4E", "AREA 1 - J-11A", "AREA 1 - MIG-29A" }, 4) -- 4 humans in the zone
+    :setRandomGroupsToDeployByEnemyQuantity(5, { "AREA 1 - JF-17", "AREA 1 - F-4E", "AREA 1 - J-11A", "AREA 1 - MIG-29A" }, 5) -- 5 humans in the zone
     :setReactOnHelicopters() -- reacts when helicopters enter the zone
     :setDelayBeforeRearming(15) -- 15 seconds before the QRA is rearmed
-	:setDelayBeforeActivating(30) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
+	:setDelayBeforeActivating(3) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
     :setNoNeedToLeaveZoneBeforeRearming() -- the enemy does not have to leave the zone before the QRA is rearmed
-    :setResetWhenLeavingZone() -- reset the QRA immediately when all the ennemy units have left the zone
+    :setResetWhenLeavingZone(1) -- reset the QRA immediately when all the ennemy units have left the zone
     :start()
 end
 
@@ -204,16 +204,16 @@ if veaf then
     :setCoalition(coalition.side.RED)
     :addEnnemyCoalition(coalition.side.BLUE)
     :setTriggerZone("PVE - GUN ONLY - AREA 2")
-    :setRandomGroupsToDeployByEnemyQuantity(1, { "PVE - GUN ONLY - AREA 2 - F-5E3", "PVE - GUN ONLY - AREA 2 - M2000-5", "PVE - GUN ONLY - AREA 2 - F-14B", "PVE - GUN ONLY - AREA 2 - MIG-25" }, 1) -- 1 human in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(2, { "PVE - GUN ONLY - AREA 2 - F-5E3", "PVE - GUN ONLY - AREA 2 - M2000-5", "PVE - GUN ONLY - AREA 2 - F-14B", "PVE - GUN ONLY - AREA 2 - MIG-25" }, 2) -- 2 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(3, { "PVE - GUN ONLY - AREA 2 - F-5E3", "PVE - GUN ONLY - AREA 2 - M2000-5", "PVE - GUN ONLY - AREA 2 - F-14B", "PVE - GUN ONLY - AREA 2 - MIG-25" }, 3) -- 3 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(4, { "PVE - GUN ONLY - AREA 2 - F-5E3", "PVE - GUN ONLY - AREA 2 - M2000-5", "PVE - GUN ONLY - AREA 2 - F-14B", "PVE - GUN ONLY - AREA 2 - MIG-25" }, 4) -- 4 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(5, { "PVE - GUN ONLY - AREA 2 - F-5E3", "PVE - GUN ONLY - AREA 2 - M2000-5", "PVE - GUN ONLY - AREA 2 - F-14B", "PVE - GUN ONLY - AREA 2 - MIG-25" }, 5) -- 5 humans in the zone
+    :setRandomGroupsToDeployByEnemyQuantity(1, { "AREA 2 - MIG-25", "AREA 2 - F-14B-2", "AREA 2 - M2000-5", "AREA 2 - F-5E3" }, 1) -- 1 human in the zone
+    :setRandomGroupsToDeployByEnemyQuantity(2, { "AREA 2 - MIG-25", "AREA 2 - F-14B-2", "AREA 2 - M2000-5", "AREA 2 - F-5E3" }, 2) -- 2 humans in the zone
+    :setRandomGroupsToDeployByEnemyQuantity(3, { "AREA 2 - MIG-25", "AREA 2 - F-14B-2", "AREA 2 - M2000-5", "AREA 2 - F-5E3" }, 3) -- 3 humans in the zone
+    :setRandomGroupsToDeployByEnemyQuantity(4, { "AREA 2 - MIG-25", "AREA 2 - F-14B-2", "AREA 2 - M2000-5", "AREA 2 - F-5E3" }, 4) -- 4 humans in the zone
+    :setRandomGroupsToDeployByEnemyQuantity(5, { "AREA 2 - MIG-25", "AREA 2 - F-14B-2", "AREA 2 - M2000-5", "AREA 2 - F-5E3" }, 5) -- 5 humans in the zone
     :setReactOnHelicopters() -- reacts when helicopters enter the zone
     :setDelayBeforeRearming(15) -- 15 seconds before the QRA is rearmed
-	:setDelayBeforeActivating(30) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
+	:setDelayBeforeActivating(3) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
     :setNoNeedToLeaveZoneBeforeRearming() -- the enemy does not have to leave the zone before the QRA is rearmed
-    :setResetWhenLeavingZone() -- reset the QRA immediately when all the ennemy units have left the zone
+    :setResetWhenLeavingZone(1) -- reset the QRA immediately when all the ennemy units have left the zone
     :start()
 end
 
@@ -230,9 +230,9 @@ if veaf then
     :setRandomGroupsToDeployByEnemyQuantity(5, { "F-15E - GUN-ONLY - AREA 3", "F-16BK52 - GUN-ONLY - AREA 3", "F-/A18C - GUN-ONLY - AREA 3", "MIG-29S - GUN-ONLY - AREA 3" }, 5) -- 5 humans in the zone
     :setReactOnHelicopters() -- reacts when helicopters enter the zone
     :setDelayBeforeRearming(15) -- 15 seconds before the QRA is rearmed
-	:setDelayBeforeActivating(30) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
+	:setDelayBeforeActivating(3) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
     :setNoNeedToLeaveZoneBeforeRearming() -- the enemy does not have to leave the zone before the QRA is rearmed
-    :setResetWhenLeavingZone() -- reset the QRA immediately when all the ennemy units have left the zone
+    :setResetWhenLeavingZone(1) -- reset the QRA immediately when all the ennemy units have left the zone
     :start()
 end
 
