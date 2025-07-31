@@ -532,7 +532,7 @@ warehouses = {
             ["aircrafts"] = {
             }, -- end of ["aircrafts"]
             ["allowHotStart"] = false,
-            ["coalition"] = "RED",
+            ["coalition"] = "NEUTRAL",
             ["diesel"] = {
                 ["InitFuel"] = 100,
             }, -- end of ["diesel"]
@@ -961,7 +961,7 @@ warehouses = {
             ["aircrafts"] = {
             }, -- end of ["aircrafts"]
             ["allowHotStart"] = false,
-            ["coalition"] = "RED",
+            ["coalition"] = "NEUTRAL",
             ["diesel"] = {
                 ["InitFuel"] = 100,
             }, -- end of ["diesel"]
@@ -1390,7 +1390,7 @@ warehouses = {
             ["aircrafts"] = {
             }, -- end of ["aircrafts"]
             ["allowHotStart"] = false,
-            ["coalition"] = "RED",
+            ["coalition"] = "NEUTRAL",
             ["diesel"] = {
                 ["InitFuel"] = 100,
             }, -- end of ["diesel"]
@@ -1456,7 +1456,7 @@ warehouses = {
             ["aircrafts"] = {
             }, -- end of ["aircrafts"]
             ["allowHotStart"] = false,
-            ["coalition"] = "RED",
+            ["coalition"] = "NEUTRAL",
             ["diesel"] = {
                 ["InitFuel"] = 100,
             }, -- end of ["diesel"]
@@ -1489,7 +1489,7 @@ warehouses = {
             ["aircrafts"] = {
             }, -- end of ["aircrafts"]
             ["allowHotStart"] = false,
-            ["coalition"] = "RED",
+            ["coalition"] = "NEUTRAL",
             ["diesel"] = {
                 ["InitFuel"] = 100,
             }, -- end of ["diesel"]
@@ -1588,7 +1588,7 @@ warehouses = {
             ["aircrafts"] = {
             }, -- end of ["aircrafts"]
             ["allowHotStart"] = false,
-            ["coalition"] = "RED",
+            ["coalition"] = "NEUTRAL",
             ["diesel"] = {
                 ["InitFuel"] = 100,
             }, -- end of ["diesel"]

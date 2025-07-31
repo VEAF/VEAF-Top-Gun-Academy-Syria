@@ -7,7 +7,7 @@
 radioPresetsBlue =
 {
     -- radio 1 : left radio, red radio, UHF radio (Default range is 225MHz to 390MHz)
-    ["##RADIO1_01##"] = 243.000,
+    ["##RADIO1_01##"] = 280.000,
     ["##RADIO1_02##"] = 260.000,
     ["##RADIO1_03##"] = 270.000,
     ["##RADIO1_04##"] = 259.000,

@@ -130,7 +130,6 @@ ORDONNANCE BFM - PVE/PVP\
 - F-14B : 2x9M\
 - M-2000C : 2xMagic II\
 - J-11A : 2xR73\
-- MIG-21 : 2xR60M\
-",
+- MIG-21 : 2xR60M",
     ["DictKey_sortie_5"] = "TOP-GUN ACADEMY SYRIA",
 } -- end of dictionary
