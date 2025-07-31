@@ -4,6 +4,7 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 veaf.config.MISSION_NAME = "VEAF-Top-Gun-Academy-Syria"
 veaf.config.MISSION_EXPORT_PATH = nil -- use default folder
+veaf.DO_NOT_EXPORT_JSON_FILES = true
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- initialize QRA
@@ -483,7 +484,12 @@ end
 -- configure SECURITY
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 if veafSecurity then
-    veafSecurity.password_L9["6ade6629f9219d87a011e7b8fbf8ef9584f2786d"] = true -- set the L9 password (the lowest possible security)
+    --let's not set a password
+    veaf.SecurityDisabled = false
+    veafSecurity.password_L1 = {}
+    veafSecurity.PASSWORD_L1 = "7f0d476aae409a2c3e4eb42060d5c16c0909555c"
+    veafSecurity.password_L1[veafSecurity.PASSWORD_L1] = true
+    --veafSecurity.password_L9["SHA1 hash of the password"] = true -- set the L9 password (the lowest possible security)
     veaf.loggers.get(veaf.Id):info("Loading configuration")
     veaf.loggers.get(veaf.Id):info("init - veafSecurity")
     veafSecurity.initialize()
@@ -540,44 +546,5 @@ if veafSkynet and false then -- don't use
     )
 end
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------
--- initialize veafSanctuary
--------------------------------------------------------------------------------------------------------------------------------------------------------------
-if veafSanctuary and false then -- don't use 
-    veaf.loggers.get(veaf.Id):info("init - veafSanctuary")
-    veafSanctuary.initialize()
-end
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------
--- initialize Hound Elint
--------------------------------------------------------------------------------------------------------------------------------------------------------------
-if veafHoundElint and false then -- don't use Hound Elint
-    veaf.loggers.get(veaf.Id):info("init - veafHoundElint")
-    veafHoundElint.initialize(
-        "ELINT", -- prefix
-        { -- red
-            admin = false,
-            markers = true,
-            atis = false,
-            controller = false
-        },
-        { -- blue
-            admin = false,
-            markers = true,
-            atis = {
-                freq = 282.125,
-                interval = 15,
-                speed = 1,
-                reportEWR = false
-            },
-            controller = {
-                freq = 282.225,
-                voiceEnabled = true
-            }
-        }
-    )
-end
-
 -- Silence ATC on all the airdromes
 veaf.silenceAtcOnAllAirbases()
-
