@@ -9,256 +9,43 @@ veaf.DO_NOT_EXPORT_JSON_FILES = true
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- initialize QRA
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
-if veaf then
-    VeafQRA.new()
-    :setName("PVE - BVR-Fox1 - AREA 1")
-    :setCoalition(coalition.side.RED)
-    :addEnnemyCoalition(coalition.side.BLUE)
-    :setTriggerZone("PVE - BVR-Fox1 - AREA 1")
-    :setRandomGroupsToDeployByEnemyQuantity(1, { "AREA 1 - F-4E - FOX1", "AREA 1 - SU27 - FOX1", "AREA 1 - MIG31 - FOX1", "AREA 1 - MIG29A - FOX1" }, 1) -- 1 human in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(2, { "AREA 1 - F-4E - FOX1", "AREA 1 - SU27 - FOX1", "AREA 1 - MIG31 - FOX1", "AREA 1 - MIG29A - FOX1" }, 2) -- 2 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(3, { "AREA 1 - F-4E - FOX1", "AREA 1 - SU27 - FOX1", "AREA 1 - MIG31 - FOX1", "AREA 1 - MIG29A - FOX1" }, 3) -- 3 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(4, { "AREA 1 - F-4E - FOX1", "AREA 1 - SU27 - FOX1", "AREA 1 - MIG31 - FOX1", "AREA 1 - MIG29A - FOX1" }, 4) -- 4 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(5, { "AREA 1 - F-4E - FOX1", "AREA 1 - SU27 - FOX1", "AREA 1 - MIG31 - FOX1", "AREA 1 - MIG29A - FOX1" }, 5) -- 5 humans in the zone
-    :setReactOnHelicopters() -- reacts when helicopters enter the zone
-    :setDelayBeforeRearming() -- 15 seconds before the QRA is rearmed
-	:setDelayBeforeActivating(10) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
-    :setNoNeedToLeaveZoneBeforeRearming() -- the enemy does not have to leave the zone before the QRA is rearmed
-    :setResetWhenLeavingZone(1) -- reset the QRA immediately when all the ennemy units have left the zone
-    :start()
-end
-
-if veaf then
-    VeafQRA.new()
-    :setName("PVE - BVR-Fox1 - AREA 2")
-    :setCoalition(coalition.side.RED)
-    :addEnnemyCoalition(coalition.side.BLUE)
-    :setTriggerZone("PVE - BVR-Fox1 - AREA 2")
-    :setRandomGroupsToDeployByEnemyQuantity(1, { "MIG-29A - FOX 1 - AREA 2", "MIG-23 - FOX 1 - AREA 2", "MIG-21 - FOX 1 - AREA 2", "MIG-25 - FOX 1 - AREA 2" }, 1) -- 1 human in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(2, { "MIG-29A - FOX 1 - AREA 2", "MIG-23 - FOX 1 - AREA 2", "MIG-21 - FOX 1 - AREA 2", "MIG-25 - FOX 1 - AREA 2" }, 2) -- 2 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(3, { "MIG-29A - FOX 1 - AREA 2", "MIG-23 - FOX 1 - AREA 2", "MIG-21 - FOX 1 - AREA 2", "MIG-25 - FOX 1 - AREA 2" }, 3) -- 3 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(4, { "MIG-29A - FOX 1 - AREA 2", "MIG-23 - FOX 1 - AREA 2", "MIG-21 - FOX 1 - AREA 2", "MIG-25 - FOX 1 - AREA 2" }, 4) -- 4 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(5, { "MIG-29A - FOX 1 - AREA 2", "MIG-23 - FOX 1 - AREA 2", "MIG-21 - FOX 1 - AREA 2", "MIG-25 - FOX 1 - AREA 2" }, 5) -- 5 humans in the zone
-    :setReactOnHelicopters() -- reacts when helicopters enter the zone
-    :setDelayBeforeRearming() -- 15 seconds before the QRA is rearmed
-	:setDelayBeforeActivating(10) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
-    :setNoNeedToLeaveZoneBeforeRearming() -- the enemy does not have to leave the zone before the QRA is rearmed
-    :setResetWhenLeavingZone(1) -- reset the QRA immediately when all the ennemy units have left the zone
-    :start()
-end
-
-if veaf then
-    VeafQRA.new()
-    :setName("PVE - BVR-Fox1 - AREA 3")
-    :setCoalition(coalition.side.RED)
-    :addEnnemyCoalition(coalition.side.BLUE)
-    :setTriggerZone("PVE - BVR-Fox1 - AREA 3")
-    :setRandomGroupsToDeployByEnemyQuantity(1, { "AREA 3 - M2000-5 - FOX1", "AREA 3 - SU27 - FOX1", "AREA 3 - F-4E - FOX1", "AREA 3 - MIG23 - FOX1" }, 1) -- 1 human in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(2, { "AREA 3 - M2000-5 - FOX1", "AREA 3 - SU27 - FOX1", "AREA 3 - F-4E - FOX1", "AREA 3 - MIG23 - FOX1" }, 2) -- 2 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(3, { "AREA 3 - M2000-5 - FOX1", "AREA 3 - SU27 - FOX1", "AREA 3 - F-4E - FOX1", "AREA 3 - MIG23 - FOX1" }, 3) -- 3 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(4, { "AREA 3 - M2000-5 - FOX1", "AREA 3 - SU27 - FOX1", "AREA 3 - F-4E - FOX1", "AREA 3 - MIG23 - FOX1" }, 4) -- 4 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(5, { "AREA 3 - M2000-5 - FOX1", "AREA 3 - SU27 - FOX1", "AREA 3 - F-4E - FOX1", "AREA 3 - MIG23 - FOX1" }, 5) -- 5 humans in the zone
-    :setReactOnHelicopters() -- reacts when helicopters enter the zone
-    :setDelayBeforeRearming(15) -- 15 seconds before the QRA is rearmed
-	:setDelayBeforeActivating(10) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
-    :setNoNeedToLeaveZoneBeforeRearming() -- the enemy does not have to leave the zone before the QRA is rearmed
-    :setResetWhenLeavingZone(1) -- reset the QRA immediately when all the ennemy units have left the zone
-    :start()
-end
-
-if veaf then
-    VeafQRA.new()
-    :setName("PVE - BVR-Fox3 - AREA 1")
-    :setCoalition(coalition.side.RED)
-    :addEnnemyCoalition(coalition.side.BLUE)
-    :setTriggerZone("PVE - BVR-Fox3 - AREA 1")
-    :setRandomGroupsToDeployByEnemyQuantity(1, { "AREA 1 - MIG29S - FOX3", "AREA 1 - JF-17 - FOX3", "AREA 1 - F14B - FOX3", "AREA 1 - SU30 - FOX3" }, 1) -- 1 human in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(2, { "AREA 1 - MIG29S - FOX3", "AREA 1 - JF-17 - FOX3", "AREA 1 - F14B - FOX3", "AREA 1 - SU30 - FOX3" }, 2) -- 2 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(3, { "AREA 1 - MIG29S - FOX3", "AREA 1 - JF-17 - FOX3", "AREA 1 - F14B - FOX3", "AREA 1 - SU30 - FOX3" }, 3) -- 3 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(4, { "AREA 1 - MIG29S - FOX3", "AREA 1 - JF-17 - FOX3", "AREA 1 - F14B - FOX3", "AREA 1 - SU30 - FOX3" }, 4) -- 4 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(5, { "AREA 1 - MIG29S - FOX3", "AREA 1 - JF-17 - FOX3", "AREA 1 - F14B - FOX3", "AREA 1 - SU30 - FOX3" }, 5) -- 5 humans in the zone
-    :setReactOnHelicopters() -- reacts when helicopters enter the zone
-    :setDelayBeforeRearming(15) -- 15 seconds before the QRA is rearmed
-	:setDelayBeforeActivating(10) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
-    :setNoNeedToLeaveZoneBeforeRearming() -- the enemy does not have to leave the zone before the QRA is rearmed
-    :setResetWhenLeavingZone(1) -- reset the QRA immediately when all the ennemy units have left the zone
-    :start()
-end
-
-if veaf then
-    VeafQRA.new()
-    :setName("PVE - BVR-Fox3 - AREA 2")
-    :setCoalition(coalition.side.RED)
-    :addEnnemyCoalition(coalition.side.BLUE)
-    :setTriggerZone("PVE - BVR-Fox3 - AREA 2")
-    :setRandomGroupsToDeployByEnemyQuantity(1, { "AREA 2 - MIG29S - FOX3", "AREA 2 - JF17 - FOX3", "AREA 2 - F16-BK52 - FOX3", "AREA 2 - J-11A - FOX3" }, 1) -- 1 human in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(2, { "AREA 2 - MIG29S - FOX3", "AREA 2 - JF17 - FOX3", "AREA 2 - F16-BK52 - FOX3", "AREA 2 - J-11A - FOX3" }, 2) -- 2 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(3, { "AREA 2 - MIG29S - FOX3", "AREA 2 - JF17 - FOX3", "AREA 2 - F16-BK52 - FOX3", "AREA 2 - J-11A - FOX3" }, 3) -- 3 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(4, { "AREA 2 - MIG29S - FOX3", "AREA 2 - JF17 - FOX3", "AREA 2 - F16-BK52 - FOX3", "AREA 2 - J-11A - FOX3" }, 4) -- 4 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(5, { "AREA 2 - MIG29S - FOX3", "AREA 2 - JF17 - FOX3", "AREA 2 - F16-BK52 - FOX3", "AREA 2 - J-11A - FOX3" }, 5) -- 5 humans in the zone
-    :setReactOnHelicopters() -- reacts when helicopters enter the zone
-    :setDelayBeforeRearming(15) -- 15 seconds before the QRA is rearmed
-	:setDelayBeforeActivating(10) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
-    :setNoNeedToLeaveZoneBeforeRearming() -- the enemy does not have to leave the zone before the QRA is rearmed
-    :setResetWhenLeavingZone(1) -- reset the QRA immediately when all the ennemy units have left the zone
-    :start()
-end
-
-if veaf then
-    VeafQRA.new()
-    :setName("PVE - BVR-Fox3 - AREA 3")
-    :setCoalition(coalition.side.RED)
-    :addEnnemyCoalition(coalition.side.BLUE)
-    :setTriggerZone("PVE - BVR-Fox3 - AREA 3")
-    :setRandomGroupsToDeployByEnemyQuantity(1, { "AREA 3 - JF-17 - FOX3", "AREA 3 - F16-Bk52 - FOX3", "AREA 3 - F14B - FOX3", "AREA 3 - F/A18C - FOX3" }, 1) -- 1 human in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(2, { "AREA 3 - JF-17 - FOX3", "AREA 3 - F16-Bk52 - FOX3", "AREA 3 - F14B - FOX3", "AREA 3 - F/A18C - FOX3" }, 2) -- 2 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(3, { "AREA 3 - JF-17 - FOX3", "AREA 3 - F16-Bk52 - FOX3", "AREA 3 - F14B - FOX3", "AREA 3 - F/A18C - FOX3" }, 3) -- 3 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(4, { "AREA 3 - JF-17 - FOX3", "AREA 3 - F16-Bk52 - FOX3", "AREA 3 - F14B - FOX3", "AREA 3 - F/A18C - FOX3" }, 4) -- 4 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(5, { "AREA 3 - JF-17 - FOX3", "AREA 3 - F16-Bk52 - FOX3", "AREA 3 - F14B - FOX3", "AREA 3 - F/A18C - FOX3" }, 5) -- 5 humans in the zone
-    :setReactOnHelicopters() -- reacts when helicopters enter the zone
-    :setDelayBeforeRearming(15) -- 15 seconds before the QRA is rearmed
-	:setDelayBeforeActivating(10) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
-    :setNoNeedToLeaveZoneBeforeRearming() -- the enemy does not have to leave the zone before the QRA is rearmed
-    :setResetWhenLeavingZone(1) -- reset the QRA immediately when all the ennemy units have left the zone
-    :start()
-end
-
-if veaf then
-    VeafQRA.new()
-    :setName("PVE - BFM - AREA 1")
-    :setCoalition(coalition.side.RED)
-    :addEnnemyCoalition(coalition.side.BLUE)
-    :setTriggerZone("PVE - BFM - AREA 1")
-    :setRandomGroupsToDeployByEnemyQuantity(1, { "MIG-25 - BFM - AREA 1", "F-5E3 - BFM - AREA 1", "MIG-23 - BFM - AREA 1", "MIG-21 - BFM - AREA 1" }, 1) -- 1 human in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(2, { "MIG-25 - BFM - AREA 1", "F-5E3 - BFM - AREA 1", "MIG-23 - BFM - AREA 1", "MIG-21 - BFM - AREA 1" }, 2) -- 2 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(3, { "MIG-25 - BFM - AREA 1", "F-5E3 - BFM - AREA 1", "MIG-23 - BFM - AREA 1", "MIG-21 - BFM - AREA 1" }, 3) -- 3 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(4, { "MIG-25 - BFM - AREA 1", "F-5E3 - BFM - AREA 1", "MIG-23 - BFM - AREA 1", "MIG-21 - BFM - AREA 1" }, 4) -- 4 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(5, { "MIG-25 - BFM - AREA 1", "F-5E3 - BFM - AREA 1", "MIG-23 - BFM - AREA 1", "MIG-21 - BFM - AREA 1" }, 5) -- 5 humans in the zone
-    :setReactOnHelicopters() -- reacts when helicopters enter the zone
-    :setDelayBeforeRearming(15) -- 15 seconds before the QRA is rearmed
-	:setDelayBeforeActivating(3) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
-    :setNoNeedToLeaveZoneBeforeRearming() -- the enemy does not have to leave the zone before the QRA is rearmed
-    :setResetWhenLeavingZone(1) -- reset the QRA immediately when all the ennemy units have left the zone
-    :start()
-end
-
-if veaf then
-    VeafQRA.new()
-    :setName("PVE - BFM - AREA 2")
-    :setCoalition(coalition.side.RED)
-    :addEnnemyCoalition(coalition.side.BLUE)
-    :setTriggerZone("PVE - BFM - AREA 2")
-    :setRandomGroupsToDeployByEnemyQuantity(1, { "SU-30 - BFM - AREA 2", "M2000C - BFM - AREA 2", "F-15E - BFM - AREA 2", "SU-27 - BFM - AREA 2" }, 1) -- 1 human in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(2, { "SU-30 - BFM - AREA 2", "M2000C - BFM - AREA 2", "F-15E - BFM - AREA 2", "SU-27 - BFM - AREA 2" }, 2) -- 2 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(3, { "SU-30 - BFM - AREA 2", "M2000C - BFM - AREA 2", "F-15E - BFM - AREA 2", "SU-27 - BFM - AREA 2" }, 3) -- 3 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(4, { "SU-30 - BFM - AREA 2", "M2000C - BFM - AREA 2", "F-15E - BFM - AREA 2", "SU-27 - BFM - AREA 2" }, 4) -- 4 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(5, { "SU-30 - BFM - AREA 2", "M2000C - BFM - AREA 2", "F-15E - BFM - AREA 2", "SU-27 - BFM - AREA 2" }, 5) -- 5 humans in the zone
-    :setReactOnHelicopters() -- reacts when helicopters enter the zone
-    :setDelayBeforeRearming(15) -- 15 seconds before the QRA is rearmed
-	:setDelayBeforeActivating(3) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
-    :setNoNeedToLeaveZoneBeforeRearming() -- the enemy does not have to leave the zone before the QRA is rearmed
-    :setResetWhenLeavingZone(1) -- reset the QRA immediately when all the ennemy units have left the zone
-    :start()
-end
-
-if veaf then
-    VeafQRA.new()
-    :setName("PVE - BFM - AREA 3")
-    :setCoalition(coalition.side.RED)
-    :addEnnemyCoalition(coalition.side.BLUE)
-    :setTriggerZone("PVE - BFM - AREA 3")
-    :setRandomGroupsToDeployByEnemyQuantity(1, { "F-14A - BFM - AREA 3", "F/A18C - BFM - AREA 3", "M2000-5 - BFM - AREA 3", "F-16CM - BFM - AREA 3" }, 1) -- 1 human in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(2, { "F-14A - BFM - AREA 3", "F/A18C - BFM - AREA 3", "M2000-5 - BFM - AREA 3", "F-16CM - BFM - AREA 3" }, 2) -- 2 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(3, { "F-14A - BFM - AREA 3", "F/A18C - BFM - AREA 3", "M2000-5 - BFM - AREA 3", "F-16CM - BFM - AREA 3" }, 3) -- 3 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(4, { "F-14A - BFM - AREA 3", "F/A18C - BFM - AREA 3", "M2000-5 - BFM - AREA 3", "F-16CM - BFM - AREA 3" }, 4) -- 4 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(5, { "F-14A - BFM - AREA 3", "F/A18C - BFM - AREA 3", "M2000-5 - BFM - AREA 3", "F-16CM - BFM - AREA 3" }, 5) -- 5 humans in the zone
-    :setReactOnHelicopters() -- reacts when helicopters enter the zone
-    :setDelayBeforeRearming(15) -- 15 seconds before the QRA is rearmed
-	:setDelayBeforeActivating(3) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
-    :setNoNeedToLeaveZoneBeforeRearming() -- the enemy does not have to leave the zone before the QRA is rearmed
-    :setResetWhenLeavingZone(1) -- reset the QRA immediately when all the ennemy units have left the zone
-    :start()
-end
-
-if veaf then
-    VeafQRA.new()
-    :setName("PVE - GUN ONLY - AREA 1")
-    :setCoalition(coalition.side.RED)
-    :addEnnemyCoalition(coalition.side.BLUE)
-    :setTriggerZone("PVE - GUN ONLY - AREA 1")
-    :setRandomGroupsToDeployByEnemyQuantity(1, { "AREA 1 - JF-17", "AREA 1 - F-4E", "AREA 1 - J-11A", "AREA 1 - MIG-29A" }, 1) -- 1 human in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(2, { "AREA 1 - JF-17", "AREA 1 - F-4E", "AREA 1 - J-11A", "AREA 1 - MIG-29A" }, 2) -- 2 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(3, { "AREA 1 - JF-17", "AREA 1 - F-4E", "AREA 1 - J-11A", "AREA 1 - MIG-29A" }, 3) -- 3 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(4, { "AREA 1 - JF-17", "AREA 1 - F-4E", "AREA 1 - J-11A", "AREA 1 - MIG-29A" }, 4) -- 4 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(5, { "AREA 1 - JF-17", "AREA 1 - F-4E", "AREA 1 - J-11A", "AREA 1 - MIG-29A" }, 5) -- 5 humans in the zone
-    :setReactOnHelicopters() -- reacts when helicopters enter the zone
-    :setDelayBeforeRearming(15) -- 15 seconds before the QRA is rearmed
-	:setDelayBeforeActivating(3) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
-    :setNoNeedToLeaveZoneBeforeRearming() -- the enemy does not have to leave the zone before the QRA is rearmed
-    :setResetWhenLeavingZone(1) -- reset the QRA immediately when all the ennemy units have left the zone
-    :start()
-end
-
-if veaf then
-    VeafQRA.new()
-    :setName("PVE - GUN ONLY - AREA 2")
-    :setCoalition(coalition.side.RED)
-    :addEnnemyCoalition(coalition.side.BLUE)
-    :setTriggerZone("PVE - GUN ONLY - AREA 2")
-    :setRandomGroupsToDeployByEnemyQuantity(1, { "AREA 2 - MIG-25", "AREA 2 - F-14B-2", "AREA 2 - M2000-5", "AREA 2 - F-5E3" }, 1) -- 1 human in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(2, { "AREA 2 - MIG-25", "AREA 2 - F-14B-2", "AREA 2 - M2000-5", "AREA 2 - F-5E3" }, 2) -- 2 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(3, { "AREA 2 - MIG-25", "AREA 2 - F-14B-2", "AREA 2 - M2000-5", "AREA 2 - F-5E3" }, 3) -- 3 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(4, { "AREA 2 - MIG-25", "AREA 2 - F-14B-2", "AREA 2 - M2000-5", "AREA 2 - F-5E3" }, 4) -- 4 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(5, { "AREA 2 - MIG-25", "AREA 2 - F-14B-2", "AREA 2 - M2000-5", "AREA 2 - F-5E3" }, 5) -- 5 humans in the zone
-    :setReactOnHelicopters() -- reacts when helicopters enter the zone
-    :setDelayBeforeRearming(15) -- 15 seconds before the QRA is rearmed
-	:setDelayBeforeActivating(3) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
-    :setNoNeedToLeaveZoneBeforeRearming() -- the enemy does not have to leave the zone before the QRA is rearmed
-    :setResetWhenLeavingZone(1) -- reset the QRA immediately when all the ennemy units have left the zone
-    :start()
-end
-
-if veaf then
-    VeafQRA.new()
-    :setName("PVE - GUN ONLY - AREA 3")
-    :setCoalition(coalition.side.RED)
-    :addEnnemyCoalition(coalition.side.BLUE)
-    :setTriggerZone("PVE - GUN ONLY - AREA 3")
-    :setRandomGroupsToDeployByEnemyQuantity(1, { "F-15E - GUN-ONLY - AREA 3", "F-16BK52 - GUN-ONLY - AREA 3", "F-/A18C - GUN-ONLY - AREA 3", "MIG-29S - GUN-ONLY - AREA 3" }, 1) -- 1 human in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(2, { "F-15E - GUN-ONLY - AREA 3", "F-16BK52 - GUN-ONLY - AREA 3", "F-/A18C - GUN-ONLY - AREA 3", "MIG-29S - GUN-ONLY - AREA 3" }, 2) -- 2 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(3, { "F-15E - GUN-ONLY - AREA 3", "F-16BK52 - GUN-ONLY - AREA 3", "F-/A18C - GUN-ONLY - AREA 3", "MIG-29S - GUN-ONLY - AREA 3" }, 3) -- 3 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(4, { "F-15E - GUN-ONLY - AREA 3", "F-16BK52 - GUN-ONLY - AREA 3", "F-/A18C - GUN-ONLY - AREA 3", "MIG-29S - GUN-ONLY - AREA 3" }, 4) -- 4 humans in the zone
-    :setRandomGroupsToDeployByEnemyQuantity(5, { "F-15E - GUN-ONLY - AREA 3", "F-16BK52 - GUN-ONLY - AREA 3", "F-/A18C - GUN-ONLY - AREA 3", "MIG-29S - GUN-ONLY - AREA 3" }, 5) -- 5 humans in the zone
-    :setReactOnHelicopters() -- reacts when helicopters enter the zone
-    :setDelayBeforeRearming(15) -- 15 seconds before the QRA is rearmed
-	:setDelayBeforeActivating(3) -- 30 seconds before the QRA is activated, since the first enemy enters the zone
-    :setNoNeedToLeaveZoneBeforeRearming() -- the enemy does not have to leave the zone before the QRA is rearmed
-    :setResetWhenLeavingZone(1) -- reset the QRA immediately when all the ennemy units have left the zone
-    :start()
-end
+VeafQRA.ToggleAllSilence(false) --this will set all QRA messages ON if the argument is "true" and all QRA messages to OFF is the argument is "false".
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- initialize all the scripts
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 if veafRadio then
     veaf.loggers.get(veaf.Id):info("init - veafRadio")
+    veafRadio.RadioMenuName = "Top Gun Syria"
+    veafRadio.radioMenu.title = veafRadio.RadioMenuName
     veafRadio.initialize(true)
 end
+
 if veafSpawn then
     veaf.loggers.get(veaf.Id):info("init - veafSpawn")
+    veafSpawn.HideRadioMenu = true
     veafSpawn.initialize()
 end
+
 if veafGrass then
     veaf.loggers.get(veaf.Id):info("init - veafGrass")
     veafGrass.initialize()
 end
+
 if veafCasMission then
     veaf.loggers.get(veaf.Id):info("init - veafCasMission")
+    veafSpawn.HideRadioMenu = true
     veafCasMission.initialize()
 end
+
 if veafTransportMission then
     veaf.loggers.get(veaf.Id):info("init - veafTransportMission")
     veafTransportMission.initialize()
+end
+
+if veafWeather then
+    veaf.loggers.get(veaf.Id):info("init - veafWeather")
+    veafWeather.initialize()
 end
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -276,13 +63,15 @@ if veafShortcuts then
     -- you can add all the shortcuts you want here. Shortcuts can be any VEAF command, as entered in a map marker.
     -- here are some examples :
 
-    -- veafShortcuts.AddAlias(
-    --     VeafAlias.new()
-    --         :setName("-sa11")
-    --         :setDescription("SA-11 Gadfly (9K37 Buk) battery")
-    --         :setVeafCommand("_spawn group, name sa11")
-    --         :setBypassSecurity(true)
-    -- )
+    --[[
+     veafShortcuts.AddAlias(
+         VeafAlias.new()
+             :setName("-sa11")
+             :setDescription("SA-11 Gadfly (9K37 Buk) battery")
+             :setVeafCommand("_spawn group, name sa11")
+             :setBypassSecurity(true)
+     )
+     ]]
 end
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -321,7 +110,7 @@ end
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 if veafMove then
     veaf.loggers.get(veaf.Id):info("Setting move tanker radio menus")
-    -- keeping the veafMove.Tankers table empty will force veafMove.initialize() to browse the units, and find the tankers
+    -- keeping the veafMove.Tankers table empty will force veafMove.initialize() to browse the units, and find the tankers automatically
     veaf.loggers.get(veaf.Id):info("init - veafMove")
     veafMove.initialize()
 end
@@ -500,21 +289,12 @@ if veafSecurity then
         veafSecurity.authenticated = false
     end
 end
-
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- configure CARRIER OPERATIONS
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 if veafCarrierOperations then
     veaf.loggers.get(veaf.Id):info("init - veafCarrierOperations")
     veafCarrierOperations.initialize(true)
-end
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------
--- configure CTLD
--------------------------------------------------------------------------------------------------------------------------------------------------------------
-if ctld then
-    veaf.loggers.get(veaf.Id):info("init - ctld")
-    ctld.initialize()
 end
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -526,17 +306,13 @@ if veafRemote then
 end
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
--- initialize the interpreter
--------------------------------------------------------------------------------------------------------------------------------------------------------------
-if veafInterpreter then
-    veaf.loggers.get(veaf.Id):info("init - veafInterpreter")
-    veafInterpreter.initialize()
-end
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- initialize Skynet-IADS
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
-if veafSkynet and false then -- don't use 
+--veafSkynet.deactivateNetworkOfCoalition(coalition.side.RED)
+if veafSkynet then -- don't use
+    veafSkynet.PointDefenceMode = veafSkynet.PointDefenceModes.Skynet
+    veafSkynet.DynamicSpawn = true
+    veafSkynet.DelayForStartup = 15
     veaf.loggers.get(veaf.Id):info("init - veafSkynet")
     veafSkynet.initialize(
         false, --includeRedInRadio=true
@@ -545,6 +321,45 @@ if veafSkynet and false then -- don't use
         false --debugBlue
     )
 end
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- initialize the interpreter
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+if veafInterpreter then
+    veaf.loggers.get(veaf.Id):info("init - veafInterpreter")
+    veafInterpreter.initialize()
+end
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- configure CTLD
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+if ctld then
+    veaf.loggers.get(veaf.Id):info("init - ctld")
+    function configurationCallback()
+        veaf.loggers.get(veaf.Id):info("configuring CTLD for %s", veaf.config.MISSION_NAME)
+        -- do what you have to do in CTLD before it is initialized
+        -- ctld.hoverPickup = false
+        -- ctld.slingLoad = true
+        -- ctld.maximumSearchDistance = 2000 -- max distance for troops to search for enemy
+        ctld.maximumMoveDistance = 100 -- max distance for troops to move from drop point if no enemy is nearby
+        ctld.JTAC_smokeOn_RED = false
+        ctld.JTAC_smokeOn_BLUE = false
+        ctld.reconF10Menu = false -- enables F10 RECON menu
+    end
+
+    ctld.initialize(configurationCallback)
+end
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- configure CSAR
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+if csar then
+	-- make the already scheduled csar.initialize function think it's already initialized
+	csar.alreadyInitialized = true
+end
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- Silence ATC
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- Silence ATC on all the airdromes
 veaf.silenceAtcOnAllAirbases()
